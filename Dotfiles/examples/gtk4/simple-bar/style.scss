@@ -1,0 +1,40 @@
+// https://gitlab.gnome.org/GNOME/gtk/-/blob/gtk-3-24/gtk/theme/Adwaita/_colors-public.scss
+@import "colors.scss";
+
+$fg-color: #{"@theme_fg_color"};
+$bg-color: #{"@theme_bg_color"};
+
+window#bar {
+  background: transparent;
+  color: $background;
+  font-weight: bold;
+
+  > box {
+    border-radius: 10px;
+    margin: 8px;
+  }
+
+  button {
+    color: white;
+    background: #15131f;
+    opacity: 0.8;
+    border-radius: 30px;
+    border: 2px solid white;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: -5px;
+    min-height: 0;
+    padding: 7px 15px;
+    animation: toggleBorder 1s infinite alternate;
+  }
+}
+
+/* Keyframes for border color */
+@keyframes toggleBorder {
+  0% {
+    border-color: whitesmoke;
+  }
+  100% {
+    border-color: $color3;
+  }
+}
