@@ -1,0 +1,42 @@
+
+NAVIGATE:
+
+    $ : To the end of the line
+    ^ : To the first non-blank character of the line
+
+INSERTION:
+
+    i : Insert text before the cursor
+    I : Insert text before the first character in the line
+    a : Append text after the cursor
+    A : Append text at the end of the line
+    o : Insert new command line below the current one
+    O : Insert new command line above the current one
+
+DELETION:
+
+    ctrl-h : While in Insert mode: delete character before the cursor
+    ctrl-w : While in Insert mode: delete word before the cursor
+
+    dd : Delete line
+    D : Delete characters under the cursor until the end of the line
+
+    cc : Delete line and start insert
+    C : Delete to the end of the line and start insert
+
+PASTING:
+
+    P : Insert the contents of the clipboard before the cursor
+    p : Insert the contents of the clipboard after the cursor
+
+    R : Enter replace mode: Each character replaces existing one
+
+    x : Delete count characters under and after the cursor
+    X : Delete count characters before the cursor
+
+MOVE:
+
+    m+1: move the current line down
+    m-2: move the current line up
+
+
