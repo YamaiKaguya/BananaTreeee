@@ -1,0 +1,6 @@
+aylurs-gtk-shell-git
+python-pywalfox
+vesktop
+visual-studio-code-bin
+yay
+yay-debug
