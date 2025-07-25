@@ -1,0 +1,14 @@
+pacman -Q            List all installed packages with version
+pacman -Qq           List all installed packages (names only)
+pacman -Qe           List explicitly installed packages (with version)
+pacman -Qqe          List explicitly installed packages (names only)
+pacman -Qn           List native packages (official repo)
+pacman -Qnq          List native packages (names only)
+pacman -Qm           List foreign packages (AUR or manually installed)
+pacman -Qmq          List foreign packages (names only)
+pacman -Qi <pkg>     Show detailed info about a package
+pacman -Ql <pkg>     List files installed by a package
+pacman -Qs <query>   Search installed packages by name or description
+pacman -Qdt          List orphaned packages (installed as dependencies but no longer used)
+pacman -Qdtq         Same as above, names only
+pacman -Qk           Check package integrity (are all files still there?)
